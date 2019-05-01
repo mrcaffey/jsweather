@@ -8,9 +8,9 @@ function(data){
 
   var icon = 
     "https://openweathermap.org/img/w" + data.weather[0].icon + ".png";
-  var temp = Math.floor(data.main.temp);
+  var temp = Math.floor(data.main.temp) + '°' + '' + 'F';
   var weather = data.weather[0].main;
-  var wind = data.weather[0].speed;
+  var wind = 'Winds' + ' ' + 'at' + ' ' + Math.floor(data.wind.speed) + ' ' + 'mph';
 
   $('.icon').attr('src', icon);
   $('.weather').append(weather);
