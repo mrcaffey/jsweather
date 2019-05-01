@@ -1,6 +1,6 @@
 
 .weather-container {
-  background: lightblue;
+  background: grey;
   text-align: center;
 }
 .city {
@@ -15,4 +15,18 @@
   font-size: 65px;
   margin: 0;
   font-weight: bold;
+}
+.button-container {
+  align-content: right;
+  position: relative;
+}
+.button {
+  background-color: #4CAF50;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 10px;
 }
