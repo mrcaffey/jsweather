@@ -1,4 +1,9 @@
 
+
+.header {
+color: black;
+size: 10px;
+}
 .weather-container {
   background: grey;
   text-align: center;
